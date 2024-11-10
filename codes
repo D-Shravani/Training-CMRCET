@@ -1,0 +1,620 @@
+import java.util.Scanner;
+
+class session {
+    public static void main(String[] args) {
+        // int a = 20;
+        // float d = (float) a;
+        // System.out.println(d);
+
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // int c = a + b;
+        // System.out.println(c);
+
+        // int a = 5, b = 7;
+        // a = a ^ b;
+        // b = a ^ b;
+        // a = a ^ b;
+        // System.out.println(a);
+        // System.out.println(b);
+
+        // int a = 5;
+        // System.out.println(-a + 1);
+
+        // int a = 5, b = 7;
+        // System.out.println(a > b);
+
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // if (a % 2 == 0) {
+        // System.out.println("even");
+        // } else {
+        // System.out.println("odd");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // if (a % 4 == 0) {
+        // System.out.println("leapyear");
+        // } else if (a % 100 == 0) {
+        // System.out.println("leapyear");
+        // } else if (a % 400 == 0) {
+        // System.out.println("leapyear");
+        // } else {
+        // System.out.println("Not");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // int c = sc.nextInt();
+        // if (a > b && a > c) {
+        // System.out.println("a is greater");
+        // } else if (b > a && b > c) {
+        // System.out.println("b is greater");
+        // } else {
+        // System.out.println("c is greater");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // double x = Math.sqrt(a);
+        // if (x * x == a) {
+        // System.out.println("perfect ");
+        // } else {
+        // System.out.println("not");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // if (n <= 50 && n >= 1) {
+        // System.out.println("1 to 50");
+        // } else if (n <= 100 && n >= 51) {
+        // System.out.println("1 to 50");
+        // } else if (n <= 150 && n >= 101) {
+        // System.out.println("1 to 50");
+        // } else if (n <= 200 && n >= 151) {
+        // System.out.println("1 to 50");
+        // } else {
+        // System.out.println("morethan");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // float a = sc.nextInt();
+        // float b = sc.nextInt();
+        // float c = sc.nextInt();
+        // float d = 0;
+        // d = a + b + c;
+        // System.out.println("total=" + d);
+        // float e = (d / 300) * 100;
+        // System.out.println("percentage=" + e);
+        // if (e >= 90 && e < 100) {
+        // System.out.println("grade A");
+        // } else if (e >= 75 && e < 90) {
+        // System.out.println("grade b");
+        // } else if (e >= 65 && e < 75) {
+        // System.out.println("grade c");
+        // } else {
+        // System.out.println("fail");
+        // }
+
+        //// Switch case
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // switch (a) {
+        // case 1:
+        // System.out.println("one");
+        // break;
+        // case 2:
+        // System.out.println("two");
+        // break;
+        // case 3:
+        // System.out.println("three");
+        // break;
+        // case 4:
+        // System.out.println("four");
+        // break;
+        // case 5:
+        // System.out.println("five");
+        // break;
+        // default:
+        // break;
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // switch (a) {
+        // case 1:
+        // System.out.println("jan");
+        // break;
+        // case 2:
+        // System.out.println("feb");
+        // break;
+        // case 3:
+        // System.out.println("march");
+        // break;
+        // case 4:
+        // System.out.println("april");
+        // break;
+        // case 5:
+        // System.out.println("may");
+        // break;
+        // default:
+        // break;
+        // }
+
+        // Loops:---------
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int sum = 0;
+        // for (int i = 1; i <= n; i++) {
+        // sum += 1;
+        // System.out.println(sum);
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // for (int i = 1; i <= n; i++) {
+        // if (i % 2 == 1) {
+        // System.out.println(i);
+        // }
+
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // for (int i = 1; i < n; i++) {
+        // if (i % 2 == 0) {
+        // System.out.println(i);
+        // }
+
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int fact = 1;
+        // int sum = 0;
+        // for (int i = 1; i <= n; i++) {
+        // sum += 1;
+        // fact *= sum;
+        // }
+        // System.out.println(fact);
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int flage = 0;
+        // for (int i = 2; i < n - 1; i++) {
+        // if (n % 2 == 0) {
+        // flage++;
+        // }
+        // }
+        // if (flage == 0) {
+        // System.out.println(" prime");
+        // } else {
+        // System.out.println("not a prime");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int a = 0;
+        // int b = 1;
+        // int c = a + b;
+        // for (int i = 1; i < n; i++) {
+        // a = b;
+        // b = c;
+        // c = a + b;
+        // }
+        // System.out.println(c);
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int rev = 0;
+        // while (n != 0) {
+        // rev = rev * 10 + n % 10;
+        // n = n / 10;
+        // }
+        // System.out.println(rev);
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int rev = 0;
+        // int num = n;
+        // while (n != 0) {
+        // rev = rev * 10 + n % 10;
+        // n = n / 10;
+        // }
+        // if (num == rev) {
+        // System.out.println("palandrome");
+        // } else {
+        // System.out.println("not a palindrome");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int num = n;
+        // double value = 0;
+        // while (n != 0) {
+        // int x = n % 10;
+        // value = value + (x * x * x);
+        // n /= 10;
+        // }
+        // if (num == value) {
+        // System.out.println("armstrong");
+        // } else {
+        // System.out.println("not an armstrong");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int num = 0;
+        // int x;
+        // while (n != 0) {
+        // x = n % 10;
+        // num = num + x;
+        // n = n / 10;
+        // }
+        // System.out.println(num);
+
+        // Xor
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int sum = 0;
+        // for (int i = 0; i <= a; i++) {
+        // sum = sum ^ a;
+        // }
+        // System.out.println(sum);
+
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // if (a % 4 == 1) {
+        // System.out.println(1);
+        // }
+        // if (a % 4 == 2) {
+        // System.out.println(a + 1);
+        // }
+        // if (a % 4 == 3) {
+        // System.out.println(0);
+        // }
+        // if (a % 4 == 0) {
+        // System.out.println(a);
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int l = sc.nextInt();
+        // int r = sc.nextInt();
+        // int s = 0;
+        // for (int i = l; i <= r; i++) {
+        // s = s ^ i;
+        // }
+        // System.out.println(s);
+
+        // Scanner sc = new Scanner(System.in);
+        // int l = sc.nextInt();
+        // int r = sc.nextInt();
+        // int a = Xor(r);
+        // int b = Xor(l - 1);
+        // System.out.println(a ^ b);
+        // }
+
+        // public static int Xor(int n) {
+        // if (n % 4 == 1)
+        // return 1;
+        // if (n % 4 == 2)
+        // return n + 1;
+        // if (n % 4 == 3)
+        // return 0;
+        // return n;
+
+        // array::---
+        // int a[] = { 10, 11, 12, 13, 14, 15 };
+        // for (int i = 0; i < a.length; i++) {
+        // System.out.println(a[i]+" ");
+        // }
+
+        // arrry for-each
+        // int a[] = { 10, 11, 12, 13, 14, 15 };
+        // for (int i : a) {
+        // System.out.println(i + " ");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < arr.length; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // for (int i = 0; i < n; i++) {
+        // System.out.print(arr[i]);
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // int large = arr[0];
+        // for (int i = 0; i < n; i++) {
+        // // arr[i]=Math.max(arr[i]);
+        // if (arr[i] > large) {
+        // large = arr[i];
+        // }
+        // }
+        // System.out.print(large);
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // int small = arr[0];
+        // for (int i = 0; i < n; i++) {
+        // if (arr[i] < small) {
+        // small = arr[i];
+        // }
+        // }
+        // System.out.print(small);
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // int large = arr[0];
+        // for (int i = 0; i < n; i++) {
+        // if (arr[i] > large) {
+        // large = arr[i];
+        // }
+        // }
+        // int s_large = -1;
+        // for (int i = 0; i < n; i++) {
+        // if (arr[i] > s_large && arr[i] != large) {
+        // s_large = arr[i];
+        // }
+        // }
+        // System.out.print(s_large);
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // int count = 1;
+        // int large = arr[0];
+        // for (int i = 0; i < n; i++) {
+        // if (arr[i] > large) {
+        // large = arr[i];
+        // count++;
+        // }
+        // }
+        // System.out.print(count);
+
+        // Linear search
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // int key = 20;
+        // for (int i = 0; i <= n; i++) {
+        // if (arr[i] == key) {
+        // System.out.println("Element is there in an array");
+        // break;
+        // }
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // int key = 10;
+        // int count = 0;
+        // for (int i = 0; i <= n; i++) {
+        // if (arr[i] == key) {
+        // count++;
+        // break;
+        // }
+        // }
+        // if (count > 0) {
+        // System.out.println("Element exist");
+        // } else {
+        // System.out.println("not tehre in an array");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // int s = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // int key = 10;
+        // // int count = 0;
+        // int e = n - 1;
+        // int mid;
+        // // for (int i = 0; i < e; i++)
+        // while (s <= e) {
+        // mid = (s + e) / 2;
+        // if (arr[mid] == key) {
+        // System.out.println("element is there");
+        // // count++;
+        // break;
+        // }
+        // if (arr[mid] > key) {
+        // e = mid - 1;
+        // }
+        // if (arr[mid] < key) {
+        // e = mid + 1;
+        // }
+        // }
+        // // if (count > 0) {
+        // // System.out.println("element there");
+        // // } else {
+        // // System.out.println("not there");
+        // // }
+
+        // reverse of an array
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // for (int i = n - 1; i >= 0; i--) {
+        // System.out.print(arr[i] + " ");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // int temp;
+        // for (int i = 0; i < n / 2; i++) {
+        // temp = arr[i];
+        // arr[i] = arr[n - 1 - i];
+        // arr[n - 1 - i] = temp;
+        // }
+        // for (int i = 0; i < n; i++) {
+        // System.out.print(arr[i] + " ");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // int temp;
+        // for (int i = 0, j = (n / 2) - 1; i < n / 4; i++, j--) {
+        // temp = arr[i];
+        // arr[i] = arr[j - i];
+        // arr[j - i] = temp;
+        // }
+        // for (int i = 0; i < n; i++) {
+        // System.out.print(arr[i] + " ");
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // int temp;
+        // for (int i = (n / 2), j = n - 1, k = 0; k < n / 4; i++, j--, k++) {
+        // temp = arr[i];
+        // arr[i] = arr[j - k];
+        // arr[j - k] = temp;
+        // }
+        // for (int i = 0; i < n; i++) {
+        // System.out.print(arr[i] + " ");
+        // }
+
+        // even of an array
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // for (int i = 0; i < n; i++) {
+        // if (arr[i] % 2 == 0) {
+        // System.out.println(arr[i]);
+        // }
+        // }
+
+        // odd
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // for (int i = 0; i < n; i++) {
+        // if (arr[i] % 2 != 0) {
+        // System.out.println(arr[i]);
+        // }
+        // }
+
+        // even index
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // for (int i = 0; i < n; i++) {
+        // if (i % 2 == 0) {
+        // System.out.println(arr[i]);
+        // }
+        // }
+
+        // odd intex
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // for (int i = 0; i < n; i++) {
+        // if (i % 2 != 0) {
+        // System.out.println(arr[i]);
+        // }
+        // }
+
+        // finding of an frequency i.e finding the repeating of the num in the ARRAY
+        // HASHING
+        // Scanner sc = new Scanner(System.in);
+        // int n = 0;
+        // n = sc.nextInt();
+        // int arr[] = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // // int h[] = { 0, 0, 0, 0, 0 }; (or) int h[] = new int[5];
+        // int h[] = new int[5];
+        // for (int i = 0; i < n; i++) {
+        // h[arr[i]]++;
+        // }
+        // for (int i = 0; i < 10; i++) {
+        // System.out.println(i + " -" + h[i]);
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // int k;
+        // int n = sc.nextInt();
+        // int arr[] = new int[n + 1];
+        // for (int i = 1; i <= n; i++) {
+        // k = sc.nextInt();
+        // arr[k] = i;
+        // }
+        // for (int i = 1; i <= n; i++) {
+        // System.out.println(arr[i] + " ");
+        // }
+    }
+}
